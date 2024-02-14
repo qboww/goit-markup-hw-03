@@ -65,7 +65,7 @@ img {
 .nav-container {
   display: flex;
   width: 1158px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0 15px;
 }
 
@@ -83,6 +83,7 @@ img {
 /* Section 1: Hero */
 .hero-section {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .motto-header {
@@ -91,6 +92,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
 }
 
 .order-button {
@@ -102,6 +104,11 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .order-button:hover,
@@ -110,12 +117,13 @@ img {
 }
 
 /* Section 2: Content */
-.content-type-header {
+.content-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .content-paragraph {
@@ -123,6 +131,23 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.content-section {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  overflow: hidden;
+}
+
+.content-list {
+  display: flex;
+  gap: 24px;
+}
+
+.content-item {
+  width: calc((100% - 72px) / 4);
 }
 
 /* Section 3: Team */
@@ -186,6 +211,7 @@ img {
 /* Footer */
 .footer-section {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-studio-span {
@@ -196,4 +222,16 @@ img {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }

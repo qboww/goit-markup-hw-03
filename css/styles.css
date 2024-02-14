@@ -32,6 +32,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -63,12 +64,9 @@ img {
 
 .nav-container {
   display: flex;
-}
-
-.nav-container .container {
   width: 1158px;
   margin: 0;
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
 }
 
 .header-nav {

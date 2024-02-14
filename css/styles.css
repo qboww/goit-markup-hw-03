@@ -1,4 +1,4 @@
-/* Global selectors */
+/*#region Global selectors*/
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -10,7 +10,9 @@ img {
   display: block;
 }
 
-/* Header */
+/*#endregion Global selectors*/
+
+/*#region Header*/
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -19,9 +21,10 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
-.studio-header {
+.studio-logo {
   color: #2e2f42;
 }
 
@@ -39,7 +42,10 @@ img {
 }
 
 .contacts-list {
+  display: flex;
   font-style: normal;
+  padding: 24px 0;
+  gap: 40px;
 }
 
 .address-link {
@@ -54,7 +60,34 @@ img {
   color: #404bbf;
 }
 
-/* Section 1: Hero  */
+.header-section {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.nav-container {
+  display: flex;
+}
+
+.nav-container .container {
+  width: 1158px;
+  margin: 0;
+  padding: 0 15px 0 15px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.links-list {
+  display: flex;
+  padding: 24px 0;
+  gap: 40px;
+}
+
+/*#endregion Header*/
+
+/*#region Section 1: Hero*/
 .hero-section {
   background-color: #2e2f42;
 }
@@ -83,11 +116,9 @@ img {
   background-color: #404bbf;
 }
 
-.header {
-  border-bottom: 1px solid #e7e9fc;
-}
+/*#endregion Section 1: Hero*/
 
-/* Section 2: Content */
+/*#region Section 2: Content*/
 .content-type-header {
   font-weight: 500;
   font-size: 20px;
@@ -103,7 +134,9 @@ img {
   color: #434455;
 }
 
-/* Section 3: Team */
+/*#endregion Section 2: Content*/
+
+/*#region Section 3: Team*/
 .team-section {
   background-color: #f4f4fd;
 }
@@ -136,7 +169,9 @@ img {
   background-color: #ffffff;
 }
 
-/* Section 4: Portfolio */
+/*#endregion Section 3: Team*/
+
+/*#region Section 4: Portfolio*/
 .portfolio-header {
   font-size: 36px;
   line-height: 1.11;
@@ -161,7 +196,9 @@ img {
   color: #434455;
 }
 
-/* Footer */
+/*#endregion Section 4: Portfolio*/
+
+/*#region Footer*/
 .footer-section {
   background-color: #2e2f42;
 }
@@ -175,3 +212,5 @@ img {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
+
+/*#endregion Footer*/

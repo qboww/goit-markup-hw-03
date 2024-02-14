@@ -1,5 +1,5 @@
 # GoIT: CSS+HTML 2.1 Course
-**Homework 2: Вступ до CSS**
+**Homework 3: Блокова модель. Flexbox**
 
 Used technologies:
 - HTML5

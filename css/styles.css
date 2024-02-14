@@ -142,7 +142,7 @@ img {
   gap: 24px;
 }
 
-.content-item {
+.content-list .content-item {
   width: calc((100% - 72px) / 4);
 }
 
@@ -182,8 +182,11 @@ img {
 
 .team-item {
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+}
+
+.team-list .team-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .team-list {
@@ -240,6 +243,7 @@ img {
 
 .portfolio-section {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-list {
@@ -249,7 +253,7 @@ img {
   row-gap: 48px;
 }
 
-.portfolio-item {
+.portfolio-list .portfolio-item {
   width: calc((100% - 48px) / 3);
 }
 

@@ -142,7 +142,7 @@ img {
   gap: 24px;
 }
 
-.content-list .content-item {
+.content-item:first-child {
   width: calc((100% - 72px) / 4);
 }
 
@@ -185,7 +185,7 @@ img {
   gap: 24px;
 }
 
-.team-list .team-item {
+.team-item:first-child {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
@@ -250,7 +250,7 @@ img {
   row-gap: 48px;
 }
 
-.portfolio-list .portfolio-item {
+.portfolio-item:first-child {
   width: calc((100% - 48px) / 3);
 }
 
